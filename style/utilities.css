@@ -1,0 +1,34 @@
+.soft {
+  border-radius: var(--softness, 4px);
+}
+.shadow {
+  box-shadow: 0 var(--shadow-y, 0) var(--shadow-blur, 2rem)
+    var(--shadow-spread, 0.5rem)
+    hsl(var(--shadow-col, var(--col-neutral-desat)) / var(--shadow-o, 0.4));
+}
+
+/* position */
+.center-v {
+  align-items: center;
+}
+.center-h {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.push-right {
+  margin-left: auto;
+}
+
+/* space */
+.p-0 {
+  padding: calc(3rem * var(--padding-mult, 1));
+}
+.p-1 {
+  padding: calc(1.5rem * var(--padding-mult, 1));
+}
+/* colors */
+.bg-neutral-light {
+  background-color: hsl(var(--col-neutral-light));
+}

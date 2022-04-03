@@ -1,0 +1,28 @@
+/* - - card - -  */
+[c\:b="card"] {
+  max-width: 440px;
+  overflow: hidden;
+
+  background-color: white;
+
+  --gap: 2rem;
+
+  --softness: 1rem;
+
+  --shadow-o: 0.1;
+  --shadow-y: 2rem;
+}
+[c\:b="card"] ol {
+  --gap: 1rem;
+}
+[c\:b="card"] ol li {
+  --softness: 0.5rem;
+}
+@media screen and (max-width: 440px) {
+  [c\:b="card"] {
+    flex-grow: 1;
+    --padding-mult: 0.5;
+    --softness: 0;
+  }
+}
+/* - - card - -  */

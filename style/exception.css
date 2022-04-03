@@ -1,0 +1,19 @@
+/* buttons */
+button[data-type="primary"] {
+  --col: var(--col-primary-bright);
+  --shadow-o: 0.35;
+  background-color: hsl(var(--col));
+  box-shadow: 0 0.25em 1em 0.125em hsl(var(--col) / var(--shadow-o));
+  color: white;
+}
+button[data-type="primary"]:hover {
+  --col: var(--col-ternary-bright);
+  --shadow-o: 0.6;
+}
+button[data-type="ternary"] {
+  padding: 0;
+}
+button[data-type="ternary"]:hover {
+  color: hsl(var(--col-neutral-dark));
+  font-weight: 700;
+}

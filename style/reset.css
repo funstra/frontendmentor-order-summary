@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+  list-style-position: inside;
+}
+a {
+  color: currentColor;
+}
+img,
+video {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border-style: solid;
+  border-color: transparent;
+}
+p {
+  max-width: 60ch;
+}

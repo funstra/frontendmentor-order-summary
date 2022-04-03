@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Order summary card - CUBECSS</title>
+    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="stylesheet" href="/style/base.css" />
+    <link rel="stylesheet" href="/style/composition.css" />
+    <link rel="stylesheet" href="/style/utilities.css" />
+    <link rel="stylesheet" href="/style/block.css" />
+    <link rel="stylesheet" href="style/exception.css" />
+  </head>
+  <body>
+    <main class="column | center-v center-h">
+      <div class="soft shadow" c:b="card">
+        <img src="/images/illustration-hero.svg" alt="" />
+        <div class="column | p-0">
+          <div class="text-center">
+            <h2>Order Summary</h2>
+            <p>
+              You can now listen to millions of songs, audiobooks and podcast on
+              any device anywhere you like!
+            </p>
+          </div>
+          <ol class="column">
+            <li class="row | bg-neutral-light soft p-1 center-v">
+              <img src="/images/icon-music.svg" alt="" />
+              <div>
+                <h3>Annual Plan</h3>
+                <p>$59.99/year</p>
+              </div>
+              <a class="push-right" href="/change">Change</a>
+            </li>
+            <li class="row | bg-neutral-light soft p-1 center-v">
+              <img src="/images/cake.svg" alt="" />
+              <div>
+                <h3>Bonus</h3>
+                <p>free!</p>
+              </div>
+              <a class="push-right" href="/change">Change</a>
+            </li>
+          </ol>
+          <div class="column">
+            <button data-type="primary">Procced to Payment</button>
+            <button data-type="ternary">Cancel Order</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
